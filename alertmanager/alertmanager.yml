@@ -1,0 +1,11 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: 'default'
+
+receivers:
+- name: 'default'
+  webhook_configs:
+  - url: 'https://webhook.site/REPLACE_WITH_YOUR_TEST_URL'
+
